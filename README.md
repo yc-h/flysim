@@ -1,5 +1,5 @@
 # flysim
-neuron and neural network simulator designed by Yu-Chi in CCLo Lab @2018
+neuron and neural network simulator designed by Yu-Chi in CCLo Lab @2018\n
 flysim -option parameters
 examples:
 -pro network.pro     %read protocal file: default=network.pro
