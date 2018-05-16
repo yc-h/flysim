@@ -1,0 +1,5 @@
+set title "F-F curve"
+set xlabel "input frequency"
+set ylabel "output frequency"
+plot "FI.dat" using 1:3 with points pt 13 ps 0.5, "../cclo/FI.dat" using 1:3 with points pt 13 ps 0.5
+pause -1

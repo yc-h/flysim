@@ -1,0 +1,5 @@
+set title "F-I curve"
+set xlabel "input current(nA)"
+set ylabel "output frequency"
+plot "FI.dat" with points pt 13 ps 0.5
+pause -1

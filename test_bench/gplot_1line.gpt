@@ -1,0 +1,5 @@
+set title "single neuron firing"
+set xlabel "time"
+set ylabel "membrance V"
+plot "MemPot.dat"  with lines title "Vm" lc 1 lw 1
+pause -1
