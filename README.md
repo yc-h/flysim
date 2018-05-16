@@ -51,8 +51,6 @@ Iteration:1
 Expertment time=15.9999s real time=0.4512544s 100%  
 
 
-you can get simulation result from flysim
-
 # User guide
 File "UserGuide.pdf" write in Chinese for simulator perform simulation
 
