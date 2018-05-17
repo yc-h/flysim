@@ -1,5 +1,5 @@
 # flysim
-This software is neuron and neural network simulator designed by Yu-Chi in CCLo Lab @2018  
+This software is a neuron and neural network simulator designed by Yu-Chi in CCLo Lab @2018  
 At first, you need GCC 4.8.2 or later version to compile this program.  
 Under the same directory of Makefile, please key in:  
   
@@ -27,12 +27,10 @@ flysim -option parameters:
 -STP                 %use short term plsticity synapse  
 -STD                 %use short term depression synapse and this option is disabled when -STP used  
 -LTP                 %use long term plsticity synapse(STDP)  
--SodCH               %Sodium channel(experiment), only used in LIF  
 -nmodel LIF          %neuron model:  
                       sim06: capable mode of sim06_10 leaky integrate and fire model  
                       sim07: capable mode of sim07_21 leaky integrate and fire model  
                       LIF(default): classical leaky integrate and fire model  
-                      HH: Hodgkin-Huxley model  
   
   
 example:  
