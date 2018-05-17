@@ -117,7 +117,7 @@ int main (int argc, char * const argv[]) {
         <<"-or my_rate.dat       # for batch opreation: output firing rate: default rate window=50ms, print out=100ms\n"
         <<"-rp 1                 # set repeat times: default=1\n"
         <<"-t 4                  # set multithreading: default=1\n"
-        <<"-s accurate           # for -nmodel GNL, numerical error level of solver:\n"
+        <<"-s accurate           # for -nmodel sim06, numerical error level of solver:\n"
         <<"                        accurate(RK4), moderate(improved Eular), rough(default, Eular)\n"
         <<"-daemon port          # Flysim as daemon(experiment): port number\n"
         <<"-dt 0.1               # time step(default=0.1ms)\n"
