@@ -52,7 +52,7 @@ Expertment time=15.9999s real time=0.4512544s 100%
 
 
 # User guide
-File "UserGuide.pdf" write in Chinese for simulator perform simulation
+File "UserGuide.pdf" is written in Chinese for simulator perform simulation
 
 # License
 This software is under GPL version 2 or later versions license.
