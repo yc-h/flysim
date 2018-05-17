@@ -28,8 +28,8 @@ flysim -option parameters:
 -STD                 %use short term depression synapse and this option is disabled when -STP used  
 -LTP                 %use long term plsticity synapse(STDP)  
 -nmodel LIF          %neuron model:  
-                      sim06: capable mode of sim06_10 leaky integrate and fire model  
-                      sim07: capable mode of sim07_21 leaky integrate and fire model  
+                      sim06: capable mode of sim06_10(old version) leaky integrate and fire model  
+                      sim07: capable mode of sim07_21(old version) leaky integrate and fire model  
                       LIF(default): classical leaky integrate and fire model  
   
   
