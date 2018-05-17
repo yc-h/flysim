@@ -1,15 +1,16 @@
 # flysim
-At first time, you need GCC 4.8.2 or later version to compile this program.  
-In the same directory of Makefile, please key in:  
+This software is neuron and neural network simulator designed by Yu-Chi in CCLo Lab @2018  
+At first, you need GCC 4.8.2 or later version to compile this program.  
+Under the same directory of Makefile, please key in:  
   
 make  
+...  
 ...  
 ...  
 to compile all files and generate "flysim.out"  
 
 
 # How to use
-neuron and neural network simulator designed by Yu-Chi in CCLo Lab @2018  
 flysim -option parameters:  
 -pro network.pro     %read protocal file: default=network.pro  
 -conf network.conf   %read configuration file: default=network.conf  
