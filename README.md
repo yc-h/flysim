@@ -34,8 +34,9 @@ flysim -option parameters:
                       HH: Hodgkin-Huxley model  
   
   
-examples:  
+example:  
 ./flysim.out -conf test_bench/network_n2.conf -pro test_bench/network_n2.pro -nmodel LIF -STP  
+
 Configuration file statsitic  
 Configuration file setup:100%        
 protocal Macros setup  
