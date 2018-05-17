@@ -14,14 +14,14 @@ to compile all files and generate "flysim.out"
 flysim -option parameters:  
 -pro network.pro     %read protocal file: default=network.pro  
 -conf network.conf   %read configuration file: default=network.conf  
--om my_membrane.dat  %for batch opreation: output membrane potential file  
--os my_spike.dat     %for batch opreation: output spikes file  
--or my_rate.dat      %for batch opreation: output firing rate: default rate window=50ms, print out=100ms  
+-om my_membrane.dat  %for batch opreation, print out membrane potential file  
+-os my_spike.dat     %for batch opreation, print out spikes file  
+-or my_rate.dat      %for batch opreation, print out firing rate file(rate window=50ms, print time=100ms)  
 -rp 1                %set repeat times: default=1  
 -t 4                 %set multithreading: default=1  
--s accurate          %for -nmodel GNL, numerical error level of solver:  
+-s accurate          %for -nmodel sim06, numerical error level of solver:  
                       accurate(RK4), moderate(improved Eular), rough(default, Eular)  
--daemon port         %Flysim as daemon(experiment): port number  
+-daemon port         %(experiment function)flysim as daemon for hanitu project: port number  
 -dt 0.1              %time step(default=0.1ms)  
 -udfsed 1            %user define random seed:0~2^32-1  
 -STP                 %use short term plsticity synapse  
