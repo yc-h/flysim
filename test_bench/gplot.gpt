@@ -1,5 +1,0 @@
-set title "CX"
-set xlabel "time Second"
-set ylabel "Neuron ID"
-plot "Spikes.dat" with points pt 13 ps 0.5
-pause -1
