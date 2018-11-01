@@ -12,7 +12,7 @@ to compile all files and generate "flysim.out"
 
 # How to use
 flysim -option parameters:
--pro network.pro     # read protocal file: default=network.pro
+-pro network.pro     ;read protocal file: default=network.pro
 -conf network.conf   # read configuration file: default=network.conf
 -om my_membrane.dat  # for batch operation: output membrane potential file
 -os my_spike.dat     # for batch operation: output spikes file
