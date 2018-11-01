@@ -1,5 +1,0 @@
-set title "300ms for AMPA GABA NMDA method"
-set xlabel "time 0.1ms"
-set ylabel "membrance V"
-plot "MemPot.dat" using 1:2 with lines title "Vm0" lc 1 lw 1, "MemPot.dat" using 1:23 with lines title "Vm1" lc 3 lw 1, "MemPot.dat" using 1:24 with lines title "Vm2" lc 7 lw 1
-pause -1
