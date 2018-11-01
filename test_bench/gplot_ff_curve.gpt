@@ -1,5 +1,0 @@
-set title "F-F curve"
-set xlabel "input frequency"
-set ylabel "output frequency"
-plot "FI.dat" with points pt 13 ps 0.5
-pause -1
