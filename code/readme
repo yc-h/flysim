@@ -36,7 +36,7 @@ write configuration information to ConfsInfo.log, please wait!
 calculate synapses size:100%        
 setup network:100%        
 capable mode of sim07_21 leaky integrate and fire model  
-time step:0.1, total neurons=2, total synapses=1  
+time step:0.1, total neurons=40, total synapses=600  
 thread number:1  
 write log information to network.log , please wait!  
 start processing----------------------------------------------------  
