@@ -45,4 +45,4 @@ Expertment time=10.0999s real time=2.064336s 100%
 
 
 # User guide
-File "UserGuide.pdf" is used for simulation
+File "UserGuide.pdf" is used to guide user write network.conf and network.pro file and run simulator
