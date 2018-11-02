@@ -4,9 +4,7 @@ At first, you need GCC 4.8.2 or later version to compile this program.
 Under the same directory of Makefile, please key in:  
   
 make  
-...  
-...  
-...  
+  
 to compile all files and generate "flysim.out"  
 
 
