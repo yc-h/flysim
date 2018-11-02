@@ -28,7 +28,7 @@ flysim -option parameters
   
   
 example:  
-./flysim.out -conf test_bench/network_n2.conf -pro test_bench/network_n2.pro -nmodel GNL2 -STP  
+./flysim.out -conf network.conf -pro network.pro -nmodel GNL2 -STP  
 
 Configuration file statsitic  
 Configuration file setup:100%        
