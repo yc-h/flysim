@@ -27,9 +27,6 @@ for i=1:152
         end
     end
 end
-%png=plot(x,y,'.');
-%title('NP152xn380');
-%saveas(gcf,'NP152xn380.png','png');
 
 Exp380x380=zeros(TabLen);
 for i=1:TabLen
