@@ -7,6 +7,7 @@ make
   
 to compile all files and generate "flysim.out"  
 
+you can also directly use flysim.out binary file under gcc 5.4 or above system  
 
 # How to use
 flysim -option parameters  
