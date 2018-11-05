@@ -1,0 +1,12 @@
+Prediction of neuron connections based on distance and number of contact points (Figure 2).
+
+Neuron polaritys are predicted by the SPIN tools, set Th_DP=0.001 and use classfier name:PCB_MED_AL_v1-2 when run goIdentifyPolarity_GUI.m.
+
+We set 380 neurons as ground truth (get from "A Comprehensive Wiring Diagram of the Protocerebral Bridge for Visual Information Processing in the Drosophila Brain”,2013,Cell Reports], the distance and contact points criteria data calculated by mainS2S.cpp 
+
+
+In /ConWgt_n380v1-2-1, Contact points file ConWgt.txt,d?.th0 stands for distance criterion for 1um to 70um(?=1, 2, 3,...).
+ConWgt.deg.d?.th0 has each neuron's in/out degree and contact points
+
+1. unzip ConWgt_n380v1-2-1.zip to /ConWgt_n380v1-2-1
+2. run ROCCmpCPUtoExpc in MATLAB, you can get ROC test results for searching the best prdiction
