@@ -86,9 +86,7 @@ ylabel('True postive rate');
 xlabel('False postive rate');
 legend('Random selection','Distance criterion=1um','Distance criterion=13um','Distance criterion=20um','Location','east');
 fname='ROC_space_seq5';
-%fname_arb=sprintf('%s.%d.png',fname,i);
 fname_arb=[fname '.png'];
-%title(fname_arb);
 
 legend boxoff;
 box off;
@@ -96,13 +94,3 @@ box off;
 figure_size = get(gcf, 'position');
 set(gcf,'PaperPosition',figure_size/20);
 print(gcf,'-dpng','-r300', fname_arb);
-
-%{
-set(gca,'xlim',[0.04 0.1]);
-set(gca,'ylim',[0.65 0.75]);
-figure_size = get(gcf, 'position');
-set(gcf,'PaperPosition',figure_size/60);
-print(gcf,'-dpng','-r300','D1-13-20_local');
-%}
-
-
