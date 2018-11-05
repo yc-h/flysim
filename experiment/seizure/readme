@@ -7,8 +7,8 @@ For each network definition in seizure/IE, run command as fellow:
 
 
 
-Short-term depression (STD) effectively stabilized the reconstructed fruit fly brain network by suppressing hyperactivity (Figure 7A)
+Short-term depression effectively stabilized the reconstructed fruit fly brain network by suppressing hyperactivity (Figure 7A)
 
 For each network definition in seizure/STD, run command as fellow:
-./flysim.out -conf network.conf -pro network.pro -nmodel GNL2 -STD -rp 100 | tee log
+./flysim.out -conf network.conf -pro network.pro -nmodel GNL2 -STP -rp 100 | tee log
 
