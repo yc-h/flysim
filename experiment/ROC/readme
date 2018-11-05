@@ -1,0 +1,2 @@
+1. unzip ConWgt_n380v1-2-1.zip to /ConWgt_n380v1-2-1
+2. run ROCCmpCPUtoExpc in MATLAB, you can get ROC test results for searching the best prdiction criterion (Figure 2)
