@@ -6,7 +6,9 @@ We set 380 neurons as ground truth (get from "A Comprehensive Wiring Diagram of 
 
 How to the distance and contact points criteria data by using mainS2S.cpp  
 compile mainS2S.cpp to executable file. (g++ -std=c++11 -O3 -Wall -pthread mainS2S.cpp -o s2s.out)  
-
+prepare your neuron's SWC file list and SWC files  
+Keyin command in your console: s2s.out 1 12 SWC_file.list OutputHeader 1 70 1  
+then get results.  
 
 
 In /ConWgt_n380v1-2-1, Contact points file ConWgt.txt,d?.th0 stands for distance criterion for 1um to 70um(?=1, 2, 3,...).
