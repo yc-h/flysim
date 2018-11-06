@@ -10,5 +10,5 @@ Short-term depression (STD) effectively stabilized the reconstructed fruit fly b
 
 For each network definition in seizure/STD, run command as fellow example:
 ./flysim.out -conf ./STD/network2.2_125_100_tD125.conf -pro network1_900_10nOvf.pro -nmodel GNL2 -STP -rp 100 | tee log
-Where xxx in network2.2_125_100_tDxxx.conf is STD time constant in mili-second
+Where xxx in network2.2_125_100_tDxxx.conf is STD time constant in millisecond
 
