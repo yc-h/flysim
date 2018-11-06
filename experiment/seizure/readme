@@ -3,7 +3,7 @@ The seizure-like hyperactivity can be reduced but not completely eliminated by s
 For each network definition in seizure/IE, run command as fellow example:
 ./flysim.out -conf ./IE/network2.2_125_10.0.conf -pro network1_900_10nOvf.pro -nmodel GNL2 -rp 100 | tee log
 Files network2.2_125_xxx are constructed brain, network_rnd2.2_125_xxx are randomized brain
-Where xxx in network2.2_125_xxx.conf stands for IE factor
+Where xxx in network2.2_125_xxx.conf and network_rnd2.2_125_xxx.conf stands for IE factor
 
 
 
@@ -12,5 +12,5 @@ Short-term depression (STD) effectively stabilized the reconstructed fruit fly b
 For each network definition in seizure/STD, run command as fellow example:
 ./flysim.out -conf ./STD/network2.2_125_100_tD125.conf -pro network1_900_10nOvf.pro -nmodel GNL2 -STP -rp 100 | tee log
 Files network2.2_125_xxx are constructed brain, network_rnd2.2_125_xxx are randomized brain
-Where xxx in network2.2_125_100_tDxxx.conf stands for STD time constant in millisecond
+Where xxx in network2.2_125_100_tDxxx.conf and network_rnd2.2_125_100_tDxxx stands for STD time constant in millisecond
 
