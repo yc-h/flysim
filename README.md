@@ -1,4 +1,4 @@
-# flysim
+# Flysim
 The Flysim project code repository
 
 This repository contains codes and data used in the Flysim project. The detail of the project is described in a paper "A single-cell level and connectome-derived computational model of the Drosophila brain" currently under review as of November 5, 2018.
