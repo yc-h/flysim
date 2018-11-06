@@ -3,7 +3,7 @@ The seizure-like hyperactivity can be reduced but not completely eliminated by s
 For each network definition in seizure/IE, run command as fellow example:
 ./flysim.out -conf ./IE/network2.2_125_10.0.conf -pro network1_900_10nOvf.pro -nmodel GNL2 -rp 100 | tee log
 Files network2.2_125_xxx are constructed brain, network_rnd2.2_125_xxx are randomized brain
-Where xxx in network2.2_125_xxx.conf and network_rnd2.2_125_xxx.conf stands for IE factor
+Where xxx in network2.2_125_xxx.conf and network_rnd2.2_125_xxx.conf stands for I/E factor
 
 
 
