@@ -4,6 +4,10 @@ Neuron polaritys are predicted by the SPIN tools(spin.tar.xz), set Th_DP=0.001 a
 
 We set 380 neurons as ground truth (get from "A Comprehensive Wiring Diagram of the Protocerebral Bridge for Visual Information Processing in the Drosophila Brain”,2013,Cell Reports], the distance and contact points criteria data(ConWgt_n380v1-2-1.zip) calculated by mainS2S.cpp 
 
+How to the distance and contact points criteria data by using mainS2S.cpp  
+compile mainS2S.cpp to executable file. (g++ -std=c++11 -O3 -Wall -pthread mainS2S.cpp -o s2s.out)  
+
+
 
 In /ConWgt_n380v1-2-1, Contact points file ConWgt.txt,d?.th0 stands for distance criterion for 1um to 70um(?=1, 2, 3,...).
 ConWgt.deg.d?.th0 has each neuron's in/out degree and contact points
